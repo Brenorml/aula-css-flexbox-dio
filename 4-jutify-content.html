@@ -39,9 +39,15 @@
         .space-around{
             justify-content: space-around;
         }
+
+        .column{
+            flex-direction: column;
+            height: 200px;
+        }
     </style>
 </head>
 <body>
+    <h1>row</h1>
     <p><b>flex-start</b></p>
     <section class="container flex-start">
         <div class="item">1</div>
@@ -76,6 +82,52 @@
 
     <p><b>space-around</b></p>
     <section class="container space-around">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <h1>column</h1>
+    <p><b>flex-start (column)</b></p>
+    <section class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <p><b>flex-end (column)</b></p>
+    <section class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <p><b>center (column)</b></p>
+    <section class="container center column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <p><b>space-between (column)</b></p>
+    <section class="container space-between column">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </section>
+
+    <p><b>space-around (column)</b></p>
+    <section class="container space-around column">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item</div>
